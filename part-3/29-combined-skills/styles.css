@@ -1,1 +1,59 @@
 /* Add your own CSS code below */
+footer span {
+  color: red;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.radio-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-article {
+  max-width: 50em;
+}
+.main-article p {
+  line-height: 1.5em;
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .hero {
+    height: 35em;
+  }
+  .hero__title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    max-width: 14em;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .views {
+    display: flex;
+  }
+
+  .views a {
+    margin-left: 1.5rem;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
